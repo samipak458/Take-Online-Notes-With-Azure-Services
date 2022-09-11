@@ -10,10 +10,9 @@ Click here to see website: [Take Online Notes](https://green-mushroom-02aac3f00.
 
 ![image](https://user-images.githubusercontent.com/52650290/189545082-30f0e686-fdc1-4fa2-8b79-0dffd79b61d1.png)
 
+## Getting Started with Create React App
 
-# Getting Started with Create React App
-
-In the project directory, you can run:
+First Clone the repository then go to the directory. In the project directory, you can run:
 
 ### `npm start`
 
