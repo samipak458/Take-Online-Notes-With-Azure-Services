@@ -14,4 +14,4 @@ Website: [Take Online Notes](https://green-mushroom-02aac3f00.1.azurestaticapps.
 
 ## Learning Outcomes
 
-In this project, you will learn how to implement add, remove/delete, search, and save functionalities. You will also learn how to deploy, or publish, your web site to Azure so that you can show it off to your friends.
+In this project, you will learn how to implement add, remove/delete, search, and save functionalities. You will also learn how to change theme of website and how to deploy, or publish, your website to Azure so that you can show it off to your friends.
