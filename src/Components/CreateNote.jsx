@@ -10,6 +10,9 @@ const CreateNote = ({ handleAddNote }) => {
     if ((characterLimit - event.target.value.length) >= 0) { // if the character limit is greater than 0 then set the value of the noteText to the state of the noteText
     setNoteText(event.target.value);
     }
+    else {
+      alert('You cannot add a note of more than 200 characters');
+    }
   }
 
   const saveNote = () => {
