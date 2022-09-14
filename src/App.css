@@ -66,6 +66,7 @@
 }
 
 textarea {
+  font-family:'Times New Roman', Times, serif;
   border: none;
   resize: none;
   background-color: #67d7cc;
