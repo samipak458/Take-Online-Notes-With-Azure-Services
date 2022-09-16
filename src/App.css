@@ -67,10 +67,10 @@
 
 textarea {
   font-family:'Times New Roman', Times, serif !important;
+  font-size: 1.0rem;
   border: none;
   resize: none;
   background-color: #67d7cc;
-  /* font-family:Arial, Helvetica, sans-serif; */
 }
 
 textarea:focus {
