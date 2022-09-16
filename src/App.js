@@ -45,20 +45,6 @@ const App = () => {
     localStorage.setItem('notes', JSON.stringify(notes));
   }, [notes]);
 
-   /***************************** Saving All Notes In Local Storage  *****************************/
-  useEffect(() => {
-    const savedTheme = JSON.parse(localStorage.getItem('theme'));
-
-    if (savedTheme) {
-      setDarkMode(savedTheme);
-    }
-
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem('theme', JSON.stringify(darkMode));
-  }, darkMode);
-
   return (
     <>
       <div className={`${darkMode && 'dark-mode'}`}>
