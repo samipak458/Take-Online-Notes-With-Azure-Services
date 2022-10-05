@@ -4,7 +4,7 @@ import Notes from './Components/Notes';
 import CreateNote from './Components/CreateNote';
 import Search from './Components/Search';
 import './App.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
 
@@ -51,26 +51,43 @@ const App = () => {
         <Header handleDarkMode={setDarkMode} />
 
         <div className='container'>
-          <Search handleSearchNote={setSearchText} />
           <div className="notes-container">
-            <CreateNote
-              handleAddNote={addNote}
-            />
-
-            {
-              notes.filter((notes) => notes.text.includes(searchText)).reverse().map((note, index) => {
-                return (
-                  <Notes
-                    key={index}
-                    id={index}
-                    text={note.text}
-                    date={note.date}
-                    handleDeleteNote={deleteNote} 
+            <div className='row'>
+              <div className='row col-12 col-lg-6'>
+                <div className='col mb-3'>
+                  <CreateNote
+                    handleAddNote={addNote}
                   />
-                )
-              })
-            }
+                </div>
+              </div>
+              <div className='row col-12 col-lg-6'>
+                <div className='col-12'>
+                  <Search handleSearchNote={setSearchText} />
+                </div>
+                {
+                  (searchText !== '' && notes.findIndex(note => note.text.toLowerCase().includes(searchText.toLowerCase())) === -1) ?
+                    <p className='text-center'>No item found !</p> :
+                    notes.filter((notes) => notes.text.toLowerCase().includes(searchText.toLowerCase())).reverse().map((note, index) => {
+                      return (
+                        <>
+                          <div className='col-12 col-sm-12 col-md-6 col-lg-6 mb-2'>
 
+                            <Notes
+                              key={index}
+                              id={index}
+                              text={note.text}
+                              date={note.date}
+                              handleDeleteNote={deleteNote}
+
+                            />
+                          </div>
+
+                        </>
+                      )
+                    })
+                }
+              </div>
+            </div>
           </div>
         </div>
       </div>

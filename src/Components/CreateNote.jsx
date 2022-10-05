@@ -34,6 +34,7 @@ const CreateNote = ({ handleAddNote }) => {
           cols='10'
           placeholder='Take a note...'
           value={noteText}
+          
           onChange={handleChange} />
         <div className='note-footer'>
           <small>{characterLimit - noteText.length} Remaining</small>  {/*subtract the length of the note from the character limit  */}
