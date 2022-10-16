@@ -4,3 +4,57 @@
   box-sizing: border-box;
 }
 
+body{
+   background-color: white;
+}
+
+.toggle {
+  position : relative ;
+  display : flex;
+  flex-direction: row;
+  width : 60px;
+  height : 32px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  gap: 12px;
+}
+     
+/* After slide changes */
+.toggle:after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  top: 3px;
+  left: 5px;
+  transition:  all 0.5s;
+}
+     
+/* Toggle text */
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+     
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+  left : 30px;
+  background-color: rgb(255, 255, 255);
+}
+     
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+  background-color: rgb(0, 0, 0);
+}
+     
+/* Checkbox vanished */
+.checkbox {
+  display : none;
+}
+
+.darkM{
+  background-color: black;
+}
