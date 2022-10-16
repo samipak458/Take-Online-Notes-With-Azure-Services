@@ -1,4 +1,8 @@
-# Take Online Notes
+<div align="center">
+<h1> Take Online Notes </h1>
+</div>
+
+## Take Online Notes is an Open Source Website built using React.js and Bootstrap.
 
 When we make notes on paper to remember something, we all run into the problem of getting them lost or misplaced. Finding a specific note among all the notes is the most challenging thing.
 
@@ -53,11 +57,19 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Feedback✌🏼
+# Code Of Conduct 📜
+
+To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](https://github.com/samipak458/Take-Online-Notes/blob/master/CODE_OF_CONDUCT.md).
+
+
+# Contribution is fun! ✌🏼
 
 If you have any feedback or suggestions please reach out to me.  
 
-Or you can create a  <a href="https://github.com/samipak458/Take-Online-Notes/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+In order to make a hassle-free environment, I implore you all (while contributing) to follow the instructions [Contributing Guidelines](https://github.com/samipak458/Take-Online-Notes/blob/master/CONTRIBUTING.md)!
+
+You can create a <a href="https://github.com/samipak458/Take-Online-Notes/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
