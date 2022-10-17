@@ -11,12 +11,7 @@ const App = () => {
   const [notes, setNotes] = useState([]);   // input by user to create a note (stored in notes array)
   const [searchText, setSearchText] = useState('');  // input by user to search a note 
   const [darkMode, setDarkMode] = useState(false);  // input by user to change the theme of the app
-  
-  
-  function toggleDarkMode(prevMode){
-    setDarkMode(prevMode => !prevMode )
-    
-  }
+
   const addNote = (text) => {
     const date = new Date();
 
@@ -51,12 +46,14 @@ const App = () => {
   }, [notes]);
 
   return (
-    <><div className={darkMode?'containDarkMode':'contain'}>
-        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-          <div className={darkMode?'containerDarkMode':'container'}>
-          <Search handleSearchNote={setSearchText} darkMode={darkMode}/>
+    <>
+      <div className={`${darkMode && 'dark-mode'}`}>
+        <Header handleDarkMode={setDarkMode} />
+
+        <div className='container'>
+          <Search handleSearchNote={setSearchText} />
           <div className="notes-container">
-            <CreateNote darkMode={darkMode}
+            <CreateNote
               handleAddNote={addNote}
             />
 
