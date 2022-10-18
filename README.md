@@ -2,7 +2,7 @@
 <h1> Take Online Notes </h1>
 </div>
 
-## Take Online Notes is an Open Source Website built using React.js and Bootstrap.
+## Take Online Notes is an **Open Source Website** built using React.js and Bootstrap.
 
 When we make notes on paper to remember something, we all run into the problem of getting them lost or misplaced. Finding a specific note among all the notes is the most challenging thing.
 
