@@ -2,13 +2,13 @@
 <h1> Take Online Notes </h1>
 </div>
 
-## Take Online Notes is an **Open Source Website** built using React.js and Bootstrap.
+## Take Online Notes is an _Open Source Website_ built using React.js and Bootstrap.
 
-When we make notes on paper to remember something, we all run into the problem of getting them lost or misplaced. Finding a specific note among all the notes is the most challenging thing.
+When we make notes on paper to remember something, we all run into the problem of getting them lost or misplaced. Finding a _specific note_ among all the notes is the most challenging thing.
 
-The digital version of notebooks, Take Online Notes website offer more benefits than paper ever could. Your notes are always accessible on your device at any time.
+The digital version of notebooks, **Take Online Notes** website offer more benefits than paper ever could. Your notes are always accessible on your device at any time.
 
-In this website you can easily create note by adding some text. The note you create will be saved until you decide to delete it. Your notes will still be saved if you close the tab or the browser because I used localStorage in this website. You can also change the theme of the website using toggle button. Additionally, there is a search option that allows you to find notes by simply typing any word that appears in the note. 
+In this website you can **_easily_** create note by adding some text. The note you create will be saved until you decide to delete it. Your notes will still be saved if you close the tab or the browser because I used **localStorage** in this website. You can also change the theme of the website using **toggle button**. Additionally, there is a search option that allows you to find notes by simply typing any word that appears in the note. 
 
 Click here to see website: [Take Online Notes](https://green-mushroom-02aac3f00.1.azurestaticapps.net/)
 
