@@ -5,9 +5,9 @@ const Search = ( props ) => {
 
     return (
         <>
-        <div className={props.darkMode? "inputpartDark":"inputpart"}>
+        <div className="search">
         <i className="fa fa-search" aria-hidden="true"></i>
-            <input className={props.darkMode? "inputpartDark":"inputpart"}
+            <input 
             type="text" 
             placeholder="Type to search ..." 
             onChange={(event) => {
