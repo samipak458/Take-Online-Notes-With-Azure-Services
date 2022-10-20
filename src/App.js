@@ -26,7 +26,8 @@ const App = () => {
 
 
   const deleteNote = (id) => {
-    const newNotes = notes.filter((arrElem, index) => index !== id); // filter() creates a new array with all elements that pass the test implemented by the provided function and check if the index of the array element is not equal to the id of the note to be deleted.
+    const deletionId = Math.abs(notes.length - 1 - id);
+    const newNotes = notes.filter((arrElem, index) => index !== deletionId); // filter() creates a new array with all elements that pass the test implemented by the provided function and check if the index of the array element is not equal to the id of the note to be deleted.
     setNotes(newNotes);
   }
 
