@@ -53,23 +53,28 @@ const App = () => {
         <div className='container'>
           <Search handleSearchNote={setSearchText} />
           <div className="notes-container">
-            <CreateNote
-              handleAddNote={addNote}
-            />
-
-            {
-              notes.filter((notes) => notes.text.includes(searchText)).reverse().map((note, index) => {
-                return (
-                  <Notes
-                    key={index}
-                    id={index}
-                    text={note.text}
-                    date={note.date}
-                    handleDeleteNote={deleteNote} 
-                  />
+            <div className="create-note-wrapper">
+              <CreateNote
+                handleAddNote={addNote}
+              />
+            </div>
+            <div className="notes-list-wrapper">
+              {
+                notes.length ? notes.filter((notes) => notes.text.includes(searchText)).reverse().map((note, index) => {
+                  return (
+                    <Notes
+                      key={index}
+                      id={index}
+                      text={note.text}
+                      date={note.date}
+                      handleDeleteNote={deleteNote} 
+                    />
+                  )
+                }) : (
+                  <div className="empty-notes-wrapper">No Notes Added</div>
                 )
-              })
-            }
+              }
+            </div>
 
           </div>
         </div>
