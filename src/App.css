@@ -51,7 +51,7 @@
 .notes-container {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(1fr);
 }
 
 .newNote {
@@ -98,6 +98,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
     /* font-family:Arial, Helvetica, sans-serif; */
 }
 
@@ -146,4 +147,20 @@ textarea:focus {
 
 .fa-search {
     margin-right: 5px;
+}
+
+.create-note-wrapper {
+    width: 100%;
+}
+
+.notes-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.empty-notes-wrapper {
+    margin: 20px auto;
+    font-size: larger;
+    font-weight: bold;
 }
