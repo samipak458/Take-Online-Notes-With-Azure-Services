@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Notes from './Components/Notes';
 import CreateNote from './Components/CreateNote';
 import Search from './Components/Search';
+import './App.css';
 
 
 const App = () => {
@@ -50,12 +51,15 @@ const App = () => {
       <div className={`${darkMode && 'dark-mode'}`}>
         <Header handleDarkMode={setDarkMode} />
 
-        <div className='flex flex-col gap-5 my-8 w-[90vw] md:w-[70vw] lg:w-[50vw] mx-auto'>
+        <div className='container'>
           <Search handleSearchNote={setSearchText} />
+          <div className="notes-container">
+            <div className="create-note-wrapper">
               <CreateNote
                 handleAddNote={addNote}
               />
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+            </div>
+            <div className="notes-list-wrapper">
               {
                 notes.length ? notes.filter((notes) => notes.text.includes(searchText)).reverse().map((note, index) => {
                   return (
@@ -72,6 +76,8 @@ const App = () => {
                 )
               }
             </div>
+
+          </div>
         </div>
       </div>
     </>
