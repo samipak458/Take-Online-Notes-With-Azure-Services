@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <>
-      <div className={`${darkMode && 'bg-[#1f1f1f] min-h-screen'}`}>
+      <div className={`${darkMode && 'dark-mode'}`}>
         <Header handleDarkMode={setDarkMode} />
 
         <div className='flex flex-col gap-5 my-8 w-[90vw] md:w-[70vw] lg:w-[50vw] mx-auto'>
