@@ -6,3 +6,16 @@
 .dark-mode h1 {
     color: #fff;
 }
+
+.save {
+    background-color: #e1e1e1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.save:hover {
+    background-color: #b89535;
+    color: white;
+    cursor: pointer;
+}
