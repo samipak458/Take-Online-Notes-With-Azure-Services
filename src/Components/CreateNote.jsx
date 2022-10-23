@@ -38,7 +38,7 @@ const CreateNote = ({ handleAddNote }) => {
           onChange={handleChange} />
         <div className='flex gap-10 justify-between items-center font-roboto'>
           <small>{characterLimit - noteText.length} Remaining</small>  {/*subtract the length of the note from the character limit  */}
-          <button className='bg-gray-200 rounded-full px-2 py-1 text-sm' onClick={saveNote}>Save</button>
+          <button className='bg-gray-800 text-gray-200 rounded-full px-2 py-1 text-sm' onClick={saveNote}>Save</button>
         </div>
       </div>
     </>
