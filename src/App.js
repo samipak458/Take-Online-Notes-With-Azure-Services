@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Notes from './Components/Notes';
 import CreateNote from './Components/CreateNote';
 import Search from './Components/Search';
+import './App.css';
 
 
 const App = () => {
