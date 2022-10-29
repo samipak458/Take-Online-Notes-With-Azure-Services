@@ -48,8 +48,8 @@ const App = () => {
 
   return (
     <>
-      <div className={`${darkMode && 'bg-[#1f1f1f] h-screen dark'}`}>
-        <Header darkMode={darkMode} handleDarkMode={setDarkMode} />
+      <div className={`${darkMode && 'dark-mode'}`}>
+        <Header handleDarkMode={setDarkMode} />
 
         <div className='flex flex-col gap-5 my-8 w-[90vw] md:w-[70vw] lg:w-[50vw] mx-auto'>
           <Search handleSearchNote={setSearchText} />
@@ -69,7 +69,7 @@ const App = () => {
                     />
                   )
                 }) : (
-                  <div className="w-[90vw] md:w-[70vw] lg:w-[50vw] text-center text-xl text-gray-600 dark:text-gray-400">No Notes Added</div>
+                  <div className="empty-notes-wrapper">No Notes Added</div>
                 )
               }
             </div>
