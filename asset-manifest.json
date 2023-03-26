@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Take-Online-Notes/static/css/main.6c797205.css",
+    "main.js": "/Take-Online-Notes/static/js/main.b6866c2f.js",
+    "index.html": "/Take-Online-Notes/index.html",
+    "main.6c797205.css.map": "/Take-Online-Notes/static/css/main.6c797205.css.map",
+    "main.b6866c2f.js.map": "/Take-Online-Notes/static/js/main.b6866c2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c797205.css",
+    "static/js/main.b6866c2f.js"
+  ]
+}
