@@ -10,7 +10,7 @@ The digital version of notebooks, **Take Online Notes** website offer more benef
 
 In this website you can **_easily_** create note by adding some text. The note you create will be saved until you decide to delete it. Your notes will still be saved if you close the tab or the browser because I used **localStorage** in this website. You can also change the theme of the website using **toggle button**. Additionally, there is a search option that allows you to find notes by simply typing any word that appears in the note. 
 
-Click here to see website: [Take Online Notes](https://green-mushroom-02aac3f00.1.azurestaticapps.net/)
+Click here to see website: [Take Online Notes](https://samipak458.github.io/Take-Online-Notes/)
 
 ![image](https://user-images.githubusercontent.com/52650290/189545082-30f0e686-fdc1-4fa2-8b79-0dffd79b61d1.png)
 
