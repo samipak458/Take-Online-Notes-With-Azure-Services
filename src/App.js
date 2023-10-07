@@ -51,7 +51,7 @@ const App = () => {
       <div className={`${darkMode && 'dark-mode'}`}>
         <Header handleDarkMode={setDarkMode} />
 
-        <div className='flex flex-col gap-5 my-8 w-[90vw] md:w-[70vw] lg:w-[50vw] mx-auto'>
+        <div className='flex main flex-col gap-5 my-8 w-[90vw] md:w-[70vw] lg:w-[50vw] mx-auto'>
           <Search handleSearchNote={setSearchText} />
               <CreateNote
                 handleAddNote={addNote}
