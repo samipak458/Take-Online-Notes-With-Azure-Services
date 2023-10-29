@@ -57,6 +57,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+Learn more ways of using Azure Static Web Apps: [Azure Static Web Apps](https://docs.microsoft.com/en-us/learn/modules/publish-app-service-static-web-app-api?wt.mc_id=studentamb_202028)
+
+Checkout [Azure Static Web Apps documentation](https://learn.microsoft.com/en-us/azure/static-web-apps/?wt.mc_id=studentamb_202028) to see how it can help you out in your web development journey.
+
 # Code Of Conduct 📜
 
 To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](https://github.com/samipak458/Take-Online-Notes/blob/master/CODE_OF_CONDUCT.md).
